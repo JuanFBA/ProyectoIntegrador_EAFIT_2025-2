@@ -8,7 +8,8 @@ Wilber Josué Mauricio Chávez
 
 
 El proceso de verificación manual se ejecuta en orden para cada notebook de jupyter.
-Para el proceso de producción y despliegue, se deberá correr el archivo train_model_local.py
+Para el proceso de producción y despliegue, se deberá generar un archivo .pkl ejecutando el último chunk del notebook
+5_Eval_SHAP.ipynb. Luego se podrá correr el archivo train_model_local.py.
 Posteriormente, correr el archivo app.py, y en terminal ejecutar el comando streamlit run app.py
 Se deberá abrir una página del navegador con la interfaz de streamlit, en la que se podrá seleccionar
 la tienda y producto que se quiera, así como la fecha futura (entre el 1 de enero de 2018 y 31 de marzo de 2018)
